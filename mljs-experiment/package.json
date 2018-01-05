@@ -1,0 +1,16 @@
+{
+  "name": "mljs-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "ml": "^2.2.0",
+    "mocha": "^4.1.0"
+  }
+}
