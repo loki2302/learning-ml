@@ -10,6 +10,7 @@ tensorflow = "==1.13.1"
 pytest = "==4.6.0"
 numpy = "==1.16.4"
 pandas = "*"
+tensorflow-gpu = "==1.13.1"
 
 [requires]
 python_version = "3.7"

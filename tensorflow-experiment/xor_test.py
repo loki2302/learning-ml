@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 import tensorflow as tf
 
@@ -21,13 +20,13 @@ def test_xor():
         loss=tf.keras.losses.mean_squared_error,
         metrics=['binary_accuracy'])
 
-    history = model.fit(
-        x=training_data[['a', 'b']].values, 
-        y=training_data[['result']].values, 
+    model.fit(
+        x=training_data[['a', 'b']].values,
+        y=training_data[['result']].values,
         epochs=1000)
 
     print(model.summary())
     print(model.get_weights())
-    
+
     predictions = model.predict(training_data[['a', 'b']]) >= 0.5
     assert predictions[:, 0].tolist() == [False, True, True, False]
