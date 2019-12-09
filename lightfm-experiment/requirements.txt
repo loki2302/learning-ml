@@ -5,4 +5,4 @@ lightfm==1.13
 numpy==1.13.1
 requests==2.18.3
 scipy==0.19.1
-urllib3==1.22
+urllib3==1.24.2
