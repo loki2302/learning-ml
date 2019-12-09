@@ -11,6 +11,7 @@ jupyter = "==1.0.0"
 matplotlib = "==3.1.0"
 opencv-contrib-python-nonfree = "==4.1.1.1"
 imutils = "==0.5.3"
+pillow = "==6.2.1"
 
 [requires]
 python_version = "3.7"
